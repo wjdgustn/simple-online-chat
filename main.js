@@ -30,12 +30,12 @@ app.use(express.static(__dirname + "/public/", staticoptions));
 
 if(setting.use_ssl) {
     server = https.createServer(options, app).listen(setting.port, function() {
-        console.log('서버 구동중!');
+        console.log('Server running...');
     });
 }
 else {
     server = http.createServer(app).listen(setting.port, function() {
-        console.log('서버 구동중!');
+        console.log('Server running...');
     });
 }
 
@@ -53,7 +53,7 @@ ws.on('connection', (socket) => {
            ws.emit('news', data);
            console.log("send");
        }
-       console.log("클라이언트 소켓 메시지 : " + JSON.stringify(data));
+       console.log("Client Socket MEssage : " + JSON.stringify(data));
     });
     socket.on('error', (error) => {
         console.error(error);
