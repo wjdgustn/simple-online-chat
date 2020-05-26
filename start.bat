@@ -1,10 +1,10 @@
 @echo off
 title simple-online-chat server
 :start
-echo ì„œë²„ êµ¬ë™ì„ ì‹œì‘í•©ë‹ˆë‹¤.
+echo ¼­¹ö ±¸µ¿À» ½ÃÀÛÇÕ´Ï´Ù.
 npm start
 :askrestart
-set /p m=ì„œë²„ê°€ ì¤‘ë‹¨ë˜ì—ˆìŠµë‹ˆë‹¤. ë‹¤ì‹œ ì‹œì‘í•˜ì‹œê² ìŠµë‹ˆê¹Œ?(y/n) :
+set /p m=¼­¹ö°¡ Áß´ÜµÇ¾ú½À´Ï´Ù. ´Ù½Ã ½ÃÀÛÇÏ½Ã°Ú½À´Ï±î?(y/n) :
 if %m% == y goto start
 if %m% == n exit
 goto askrestart
