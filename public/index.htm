@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>잡담방</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onkeydown="addkey()" onkeyup="removekey()" onload="document.getElementById('textbox').focus()">
+        <div id="chatbox">환영합니다!</div>
+        <input type="text" id="textbox" placeholder="채팅방에 보낼 말을 입력해주세요.">
+        <button onclick="send();">전송</button>
+        <br><input type="text" id="myname" placeholder="당신의 이름을 입력해주세요." value="손님">
+    </body>
+</html>

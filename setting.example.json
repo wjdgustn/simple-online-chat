@@ -1,0 +1,7 @@
+{
+  "port" : YOUR_PORT,
+  "use_ssl" : false,
+  "ssl_cert" : "YOUR_SSL_CERT",
+  "ssl_key" : "YOUR_SSL_KEY",
+  "index" : [ "index.htm","index.html" ]
+}

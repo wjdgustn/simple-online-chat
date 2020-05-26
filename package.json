@@ -1,0 +1,23 @@
+{
+  "name": "simple-online-chat",
+  "version": "1.0.0",
+  "description": "Simple web chat",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjdgustn/simple-chat.git"
+  },
+  "author": "정현수",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/wjdgustn/simple-chat/issues"
+  },
+  "homepage": "https://github.com/wjdgustn/simple-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

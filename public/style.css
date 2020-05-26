@@ -1,0 +1,12 @@
+input {
+    width: 500px;
+}
+#chatbox {
+    overflow: scroll;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #000000;
+}
+.notice {
+    background-color: silver;
+}
